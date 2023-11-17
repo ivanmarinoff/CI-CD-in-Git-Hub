@@ -28,3 +28,5 @@ jobs:
     - name: Build the app
       run: npm install
     
+    - name: Test the app
+      run: npm test
